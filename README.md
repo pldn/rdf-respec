@@ -27,3 +27,13 @@ A tool for showing rdf in respec-based technical documents and web standards
   - Pro: works just like yml, but now its turtle
   - Pro: can be customised at runtime, so can be used with different solutions (respec, jekyll, etc)
   - Con: requires external libraries
+
+## First MVP
+
+We opt for the generation of MD file from RDF files:
+- The generation will be performed by a single java jar;
+- The execution can be made part of git actions, so a developer only needs to commit the turtle;
+- Actually, this is the way respec pages are created, we only add an additional step;
+- The java jar can also be used locally, or part of some other build pipeline.
+
+Creating a javascript library for runtime interpretation might still be something for the furture.
