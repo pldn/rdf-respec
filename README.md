@@ -8,6 +8,8 @@ A tool for showing rdf in respec-based technical documents and web standards
 
 ## Requirements
 
+> Are you interested in rdf-respec, but can't find your requirement? Please [submit an issue](https://github.com/pldn/rdf-respec/issues).
+
 - Should be able to process RDF in different serialisations (turtle, json-ld, XML-RDF);
 - Should be able to process common vocabularies, such as:
   - SKOS (lists of concepts and definitions, taxonomies);
