@@ -15,6 +15,7 @@ A tool for showing rdf in respec-based technical documents and web standards
   - SHACL (shapes, data models, profiles);
   - DCAT / Dublin core (models as assets, datasets, descriptions of models and links to source documents)
 - Should be able to generate tables and sections with descriptions from the RDF data;
+- Should be configurable;
 - Should be able to generate diagrams (preferable without using external tools).
 
 ## Possible solutions
@@ -37,3 +38,9 @@ We opt for the generation of MD file from RDF files:
 - The java jar can also be used locally, or part of some other build pipeline.
 
 Creating a javascript library for runtime interpretation might still be something for the furture.
+
+## Resources
+
+The first MVP will combine previous attempts:
+- https://github.com/skemu/rdf2respec
+- https://github.com/architolk/rdf2respec
